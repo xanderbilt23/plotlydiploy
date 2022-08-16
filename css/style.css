@@ -9,40 +9,4 @@ body {
   background-size: 100% 100%;
   opacity: 0.3;
   text-align: center;
-  color: rgb(71, 159, 122); 
 }
-.well {
-  background-color: rgb(54, 115, 169);
-  font-family: Verdana;
-  font-weight: 90;
-  font-size: smaller;
-  
-    }
-  
-    .panel {
-      background-color: rgb(79, 126, 167);
-      font-family: Verdana;
-      font-weight: 90;
-      
-        }
-  
-  #know {
-    font-family: Verdana;
-    font-weight: 90;
-    font-size: medium;
-    background-color: white;
-  }
-  
-  #otu {
-    font-family: Verdana;
-    font-weight: 90;
-    font-size: medium;
-    background-color: white;
-  }
-  
-  #scrub{
-    font-family: Verdana;
-    font-weight: 90;
-    font-size: medium;
-    background-color: white;
-  }
