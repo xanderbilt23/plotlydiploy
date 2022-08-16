@@ -127,7 +127,7 @@ function buildCharts(sample) {
         l: 100,
         r: 100,
         t: 100,
-        b:30
+        b:100
       },
     };
 
