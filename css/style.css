@@ -7,46 +7,7 @@ body {
 .jumbotron {
   background-image: url('../images/bacteria.jpg');
   background-size: 100% 100%;
-  opacity: 0.7;
+  opacity: 0.3;
   text-align: center;
-  color: aliceblue;
-  
+  color: rgb(223, 235, 51); 
 } 
-
-.well {
-background-color: aliceblue;
-font-family: Verdana;
-font-weight: 90;
-font-size: smaller;
-
-
-}
-
-.panel {
-  background-color: aliceblue;
-  font-family: Verdana;
-  font-weight: 90;
-  
-    }
-
-
-#know {
-font-family: Verdana;
-font-weight: 90;
-font-size: medium;
-background-color: whitesmoke;
-}
-
-#otu {
-font-family: Verdana;
-font-weight: 90;
-font-size: medium;
-background-color: whitesmoke;
-}
-
-#scrub{
-font-family: Verdana;
-font-weight: 90;
-font-size: medium;
-background-color: whitesmoke;
-}
