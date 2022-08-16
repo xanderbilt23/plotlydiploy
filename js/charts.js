@@ -76,12 +76,12 @@ function buildCharts(sample) {
     //  so the otu_ids with the most bacteria are last. 
 
     var yticks = otu_ids.slice(0, 10).map(numericIds=> "OTU " + numericIds).reverse();
-    var top10_otu_labels = otu_labels.slice(0, 10).reverse();
-    var top10_sample_values = sample_values.slice(0, 10).reverse();
+    var t10_otu_labels = otu_labels.slice(0, 10).reverse();
+    var t10_sample_values = sample_values.slice(0, 10).reverse();
 
     // 8. Create the trace for the bar chart. 
     var barData = {
-      x: top10_sample_values,
+      x: t10_sample_values,
       y: yticks,
       text: top10_otu_labels,
       type: "bar",
@@ -97,7 +97,7 @@ function buildCharts(sample) {
         l: 100,
         r: 100,
         t: 100,
-        b:30
+        b:100
 
       }
      
@@ -129,7 +129,6 @@ function buildCharts(sample) {
         t: 100,
         b:30
       },
-      // hovermode='x'
     };
 
     // 3. Use Plotly to plot the data with the layout.
