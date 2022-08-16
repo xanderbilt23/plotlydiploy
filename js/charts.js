@@ -62,9 +62,9 @@ function buildCharts(sample) {
     var sampleArrays = data.samples;
     console.log(sampleArrays);
     // 4. Create a variable that filters the samples for the object with the desired sample number.
-    var filteredsampleArray= sampleArrays.filter(sampleObj=> sampleObj.id == sample);
+    var filterArray= sampleArrays.filter(sampleObj=> sampleObj.id == sample);
     //  5. Create a variable that holds the first sample in the array.
-    var result = filteredsampleArray[0];
+    var result = filterArray[0];
 
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
     var otu_ids = result.otu_ids;
@@ -83,7 +83,7 @@ function buildCharts(sample) {
     var barData = {
       x: t10_sample_values,
       y: yticks,
-      text: top10_otu_labels,
+      text: t10_otu_labels,
       type: "bar",
       orientation: "h", 
 
@@ -168,8 +168,8 @@ function buildCharts(sample) {
           { range: [0, 2], color: "red"},
           { range: [2, 4], color: "orange" },
           { range: [4, 6], color: "yellow" },
-          { range: [6, 8], color: "limegreen" },
-          { range: [8, 10], color: "darkgreen" }]},
+          { range: [6, 8], color: "lightgreen" },
+          { range: [8, 10], color: "green" }]},
     }];
     
     // 5. Create the layout for the gauge chart.
